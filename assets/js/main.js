@@ -179,7 +179,7 @@
 			.children('.inner')
 				//.css('overflow', 'hidden')
 				.css('overflow-y', browser.mobile ? 'visible' : 'hidden')
-				.css('overflow-x', browser.mobile ? 'scroll' : 'hidden')
+				.css('overflow-x', browser.mobile ? 'scroll' : 'visible')
 				.scrollLeft(0);
 
 		// Style #1.
